@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: url('https://img.freepik.com/free-vector/speed-lights-background_23-2148627267.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719187200&semt=ais_user') no-repeat center center/cover;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.calculator {
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ff6699, 0 0 10px #ff6699;
+}
+
+.display {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #000000;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    text-shadow: 0 0 5px #00cc99, 0 0 10px #00cc99;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px #00cc99, 0 0 30px #00cc99;
+}
+
+button:active {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px #00cc99, 0 0 40px #00cc99;
+}
